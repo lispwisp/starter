@@ -1,0 +1,15 @@
+[package]
+name = "starter"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "starter"
+path = "src/lib.rs"
+
+[workspace]
+members = [
+    "server"
+]
+
+[dependencies]

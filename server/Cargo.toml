@@ -1,0 +1,15 @@
+[package]
+name = "server"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "server"
+path = "src/main.rs"
+
+[dependencies]
+actix-web = "4.3.1"
+anyhow = "1.0.71"
+clap = { version = "4.3.9", features = ["derive"] }
+tracing = "0.1.37"
+tracing-actix-web = "0.7.5"

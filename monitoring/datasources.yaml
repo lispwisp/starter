@@ -1,0 +1,14 @@
+apiVersion: 1
+
+datasources:
+#  - name: Prometheus
+#    uid: Prometheus
+#    type: prometheus
+#    prometheusType: Thanos
+#    cacheLevel: 'High'
+#    incrementalQuerying: true
+#    incrementalQueryOverlapWindow: 10m
+#    access: proxy
+#    url: http://thanos-querier.monitoring.svc.cluster.local:9090
+#    version: 1
+#    editable: true
